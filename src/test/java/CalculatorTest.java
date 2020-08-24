@@ -19,4 +19,9 @@ public class CalculatorTest {
     public void canSubNumbers() {
         assertEquals(5, calculator.subNumbers(10, 5));
     }
+
+    @Test
+    public void canMultiplyNumbers() {
+        assertEquals(20, calculator.multiplyNumbers(4, 5));
+    }
 }
