@@ -14,4 +14,9 @@ public class CalculatorTest {
     public void canAddNumbers() {
         assertEquals(7, calculator.addNumbers(3,4));
     }
+
+    @Test
+    public void canSubNumbers() {
+        assertEquals(5, calculator.subNumbers(10, 5));
+    }
 }
