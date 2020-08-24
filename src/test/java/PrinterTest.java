@@ -32,4 +32,10 @@ public class PrinterTest {
     public void hasToner() {
         assertEquals(100, printer.getToner());
     }
+
+    @Test
+    public void reducesToner() {
+        printer.print(5, 2);
+        assertEquals(90, printer.getToner());
+    }
 }
