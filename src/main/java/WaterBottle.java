@@ -12,4 +12,12 @@ public class WaterBottle {
     public void drink() {
         volume -= 10;
     }
+
+    public void empty() {
+        this.volume = 0;
+    }
+
+    public void refill() {
+        this.volume = 100;
+    }
 }
